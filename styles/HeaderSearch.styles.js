@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const StyledSearchGroup = styled.div`
   display: flex;
@@ -76,7 +76,7 @@ export const StyledHeaderSearchSelectItems = styled.div`
   align-items: center;
   color: #ffffff;
 
-  p {
+  span {
     width: 100%;
     padding: 10px 20px;
     text-transform: uppercase;

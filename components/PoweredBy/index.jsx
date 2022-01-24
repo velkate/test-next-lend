@@ -1,8 +1,8 @@
-import React from 'react';
+import React from "react";
 
-import BitmapSVG from './BitmapSVG';
+import BitmapSVG from "./BitmapSVG";
 
-import { StyledPoweredByElement } from '../../styles/PoweredBy.styles';
+import { StyledPoweredByElement } from "../../styles/PoweredBy.styles";
 
 const PoweredBy = () => {
   return (

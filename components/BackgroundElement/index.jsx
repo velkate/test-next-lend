@@ -1,8 +1,8 @@
-import React from 'react';
+import React from "react";
 
-import AvmGraphicSVG from './AvmGraphicSVG';
+import AvmGraphicSVG from "./AvmGraphicSVG";
 
-import { StyledBackgroundElement } from '../../styles/BackgroundElement.styles';
+import { StyledBackgroundElement } from "../../styles/BackgroundElement.styles";
 
 const BackgroundElement = () => {
   return (

@@ -1,11 +1,11 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 
-import DownArrow from './DownArrow';
+import DownArrow from "./DownArrow";
 
 import {
   CustomSelectOptions,
   StyledCustomSelect,
-} from '../../styles/CustomSelect.styles';
+} from "../../styles/CustomSelect.styles";
 
 const CustomSelect = ({
   options,
@@ -18,8 +18,8 @@ const CustomSelect = ({
   return (
     <>
       <StyledCustomSelect onClick={() => setShowOptions(!showOptions)}>
-        <span>{selectedOption ? selectedOption.label : 'Please select'}</span>
-        <DownArrow color='#000000' />
+        <span>{selectedOption ? selectedOption.label : "Please select"}</span>
+        <DownArrow color="#000000" />
       </StyledCustomSelect>
       {showOptions && (
         <CustomSelectOptions>
@@ -30,7 +30,8 @@ const CustomSelect = ({
                 onClick={() => {
                   onSelectOption(option);
                   setShowOptions(false);
-                }}>
+                }}
+              >
                 {option.label}
               </div>
             ))

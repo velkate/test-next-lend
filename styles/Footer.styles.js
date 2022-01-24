@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const StyledFooter = styled.footer`
   display: none;
@@ -23,8 +23,7 @@ export const StyledMobileFooter = styled.footer`
 
 export const FooterTop = styled.div`
   width: 100%;
-  padding: 40px 20px;
-  background-color: #363d52;
+  padding: 40px 0;
 
   display: flex;
   flex-direction: column;
@@ -34,7 +33,7 @@ export const FooterTop = styled.div`
   @media (min-width: 1024px) {
     gap: 20px;
 
-    padding: 40px 10%;
+    padding: 40px 0;
     align-items: flex-start;
   }
 
@@ -68,7 +67,7 @@ export const FooterTop = styled.div`
 
 export const FooterBottom = styled.div`
   width: 100%;
-  padding: 40px 20px;
+  padding: 40px 0;
   background-color: #2c3142;
 
   display: flex;
@@ -76,7 +75,7 @@ export const FooterBottom = styled.div`
   justify-content: center;
 
   @media (min-width: 1024px) {
-    padding: 50px 10%;
+    padding: 50px 0;
     justify-content: space-between;
   }
 

@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const StyledFormItem = styled.div`
   position: relative;
@@ -39,10 +39,10 @@ export const StyledFormItem = styled.div`
     }
   }
   ::before {
-    content: '';
+    content: "";
     display: block;
     position: absolute;
-    background-color: ${({ divider }) => (divider ? '#d8d8d8' : 'transparent')};
+    background-color: ${({ divider }) => (divider ? "#d8d8d8" : "transparent")};
     right: 0;
     bottom: 0;
     width: 100%;

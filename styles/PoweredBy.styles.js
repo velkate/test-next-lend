@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const StyledPoweredByElement = styled.div`
   padding: 20px 0 0;

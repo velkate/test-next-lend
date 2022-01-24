@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const StyledCustomSelect = styled.div`
   cursor: pointer;

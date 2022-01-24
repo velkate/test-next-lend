@@ -1,6 +1,6 @@
-import React from 'react';
+import React from "react";
 
-import { StyledFormItem } from '../../styles/FormItem.styles';
+import { StyledFormItem } from "../../styles/FormItem.styles";
 
 const FormItem = ({ label, divider = false, children }) => (
   <StyledFormItem divider={divider}>

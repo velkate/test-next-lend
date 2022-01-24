@@ -1,17 +1,16 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const StyledServiceFeedback = styled.div`
-  padding: 8px 20px;
+  padding: 8px 0;
 
   display: flex;
   align-items: center;
   gap: 10px;
-  background-color: inherit;
   color: #474747;
   font-size: 12px;
 
   @media (min-width: 1024px) {
-    padding: 8px 20%;
+    padding: 8px 0;
     font-size: 16px;
   }
 
