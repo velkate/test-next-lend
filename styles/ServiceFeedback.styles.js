@@ -11,7 +11,7 @@ export const StyledServiceFeedback = styled.div`
   font-size: 12px;
 
   @media (min-width: 1024px) {
-    padding: 8px 10%;
+    padding: 8px 20%;
     font-size: 16px;
   }
 

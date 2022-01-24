@@ -10,7 +10,7 @@ export const StyledForm = styled.div`
   flex-direction: column;
 
   @media (min-width: 1024px) {
-    height: 90px;
+    height: fit-content;
     padding: 20px 30px 20px 0;
 
     flex-direction: row;

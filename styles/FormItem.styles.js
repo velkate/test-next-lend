@@ -9,7 +9,7 @@ export const StyledFormItem = styled.div`
 
   @media (min-width: 1024px) {
     gap: 5px;
-    height: 60px;
+    height: fit-content;
     padding: 0 30px;
   }
 

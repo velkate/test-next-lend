@@ -40,8 +40,9 @@ export const FooterTop = styled.div`
 
   span {
     display: inline-block;
-    padding-bottom: 15px;
     font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
   }
   nav {
     display: flex;
@@ -51,7 +52,7 @@ export const FooterTop = styled.div`
 
     @media (min-width: 1024px) {
       align-items: flex-start;
-      gap: 5px;
+      gap: 3px;
     }
 
     li {
@@ -75,7 +76,7 @@ export const FooterBottom = styled.div`
   justify-content: center;
 
   @media (min-width: 1024px) {
-    padding: 40px 10%;
+    padding: 50px 10%;
     justify-content: space-between;
   }
 
@@ -86,7 +87,6 @@ export const FooterBottom = styled.div`
     gap: 15px;
 
     @media (min-width: 1024px) {
-      align-items: flex-start;
       flex-direction: row;
       gap: 20px;
     }
@@ -109,6 +109,11 @@ export const SocialMediaGroup = styled.div`
   gap: 50px;
 
   @media (min-width: 1024px) {
-    gap: 10px;
+    gap: 20px;
+
+    svg {
+      width: 40px;
+      height: 40px;
+    }
   }
 `;

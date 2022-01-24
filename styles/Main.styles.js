@@ -8,6 +8,6 @@ export const StyledMain = styled.main`
   background-color: #f3f4fa;
 
   @media (min-width: 1024px) {
-    padding: 0 10%;
+    padding: 0 20%;
   }
 `;

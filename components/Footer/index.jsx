@@ -1,10 +1,10 @@
-import React from 'react';
-import Link from 'next/link';
+import React from "react";
+import Link from "next/link";
 
-import FacebookSVG from './FacebookSVG';
-import LinkedInSVG from './LinkedInSVG';
-import YouTubeSVG from './YouTubeSVG';
-import MobileLogoSVG from './MobileLogoSVG';
+import FacebookSVG from "./FacebookSVG";
+import LinkedInSVG from "./LinkedInSVG";
+import YouTubeSVG from "./YouTubeSVG";
+import MobileLogoSVG from "./MobileLogoSVG";
 
 import {
   FooterBottom,
@@ -12,7 +12,7 @@ import {
   SocialMediaGroup,
   StyledFooter,
   StyledMobileFooter,
-} from '../../styles/Footer.styles';
+} from "../../styles/Footer.styles";
 
 const Footer = () => {
   return (
@@ -20,29 +20,30 @@ const Footer = () => {
       <StyledMobileFooter>
         <FooterTop>
           <MobileLogoSVG />
+          <div>© 2020 Property.XYZ</div>
           <nav>
             <li>
-              <Link href='/'>About</Link>
+              <Link href="/">About</Link>
             </li>
             <li>
-              <Link href='/'>Contact us</Link>
+              <Link href="/">Contact us</Link>
             </li>
             <li>
-              <Link href='/'>Feedback</Link>
+              <Link href="/">Feedback</Link>
             </li>
           </nav>
           <SocialMediaGroup>
-            <Link href='/'>
+            <Link href="/">
               <a>
                 <FacebookSVG />
               </a>
             </Link>
-            <Link href='/'>
+            <Link href="/">
               <a>
                 <LinkedInSVG />
               </a>
             </Link>
-            <Link href='/'>
+            <Link href="/">
               <a>
                 <YouTubeSVG />
               </a>
@@ -52,16 +53,16 @@ const Footer = () => {
         <FooterBottom>
           <nav>
             <li>
-              <Link href='/'>Sitemap</Link>
+              <Link href="/">Sitemap</Link>
             </li>
             <li>
-              <Link href='/'>Privacy policy</Link>
+              <Link href="/">Privacy policy</Link>
             </li>
             <li>
-              <Link href='/'>Terms of use & Copyright Policies</Link>
+              <Link href="/">Terms of use & Copyright Policies</Link>
             </li>
             <li>
-              <Link href='/'>Cookie policy</Link>
+              <Link href="/">Cookie policy</Link>
             </li>
           </nav>
         </FooterBottom>
@@ -71,53 +72,53 @@ const Footer = () => {
           <span>property xyz</span>
           <nav>
             <li>
-              <Link href='/'>Property investors sign up</Link>
+              <Link href="/">Property investors sign up</Link>
             </li>
             <li>
-              <Link href='/'>Sell your property</Link>
+              <Link href="/">Sell your property</Link>
             </li>
             <li>
-              <Link href='/'>About</Link>
+              <Link href="/">About</Link>
             </li>
             <li>
-              <Link href='/'>Contact us</Link>
+              <Link href="/">Contact us</Link>
             </li>
             <li>
-              <Link href='/'>Feedback</Link>
+              <Link href="/">Feedback</Link>
             </li>
           </nav>
         </FooterTop>
         <FooterBottom>
           <nav>
             <li>
-              <Link href='/'>Sitemap</Link>
+              <Link href="/">Sitemap</Link>
             </li>
             <li>
-              <Link href='/'>Privacy policy</Link>
+              <Link href="/">Privacy policy</Link>
             </li>
             <li>
-              <Link href='/'>Terms of use</Link>
+              <Link href="/">Terms of use</Link>
             </li>
             <li>
-              <Link href='/'>Cookie policy</Link>
+              <Link href="/">Cookie policy</Link>
             </li>
             <li>
-              <Link href='/'>Data source</Link>
+              <Link href="/">Data source</Link>
             </li>
           </nav>
           <SocialMediaGroup>
             <span>Follow us on social media</span>
-            <Link href='/'>
+            <Link href="/">
               <a>
                 <FacebookSVG />
               </a>
             </Link>
-            <Link href='/'>
+            <Link href="/">
               <a>
                 <LinkedInSVG />
               </a>
             </Link>
-            <Link href='/'>
+            <Link href="/">
               <a>
                 <YouTubeSVG />
               </a>

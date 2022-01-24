@@ -21,7 +21,7 @@ const HeaderSearch = () => {
       <StyledHeaderSearchSelect
         onClick={() => setShowTrendList(!showTrendList)}>
         <TrendSVG />
-        <div className='selectedValue'>{selectValue}</div>
+        <div className='selectedValue'>{selectValue ? selectValue : 'Research'}</div>
         <DownArrow color={'#ffffff'} />
         {showTrendList && (
           <StyledHeaderSearchSelectItems>
@@ -34,6 +34,7 @@ const HeaderSearch = () => {
         <input
           type='text'
           value={inputValue}
+          placeholder='Chester, Cheshire, UK'
           onChange={(e) => setInputValue(e.target.value)}
         />
         <SearchSVG />

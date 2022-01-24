@@ -4,15 +4,16 @@ export const StyledBackgroundElement = styled.div`
   overflow: hidden;
   position: relative;
   width: 100%;
-  background-color: inherit;
+  padding: 10px 0 0;
+  background-color: #f3f4fa;
   display: flex;
   justify-content: center;
 
   svg {
     position: relative;
     min-width: 700px;
-    bottom: -30px;
-    transform: scale(0.8);
+    bottom: 0;
+    height: 150px;
   }
 
   @media (min-width: 1024px) {
@@ -22,7 +23,6 @@ export const StyledBackgroundElement = styled.div`
       position: relative;
       width: 100%;
       bottom: 0;
-      transform: scale(1);
     }
   }
 `;

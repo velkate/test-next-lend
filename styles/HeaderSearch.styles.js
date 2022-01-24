@@ -2,11 +2,13 @@ import styled from 'styled-components';
 
 export const StyledSearchGroup = styled.div`
   display: flex;
+  justify-content: flex-end;
   gap: 1px;
   width: 100%;
 
   @media (min-width: 1024px) {
-    width: 700px;
+    max-width: 700px;
+    width: 100%;
   }
 `;
 
@@ -21,7 +23,7 @@ export const StyledHeaderSearch = styled.label`
   align-items: center;
 
   @media (min-width: 1024px) {
-    width: 545px;
+    max-width: 545px;
   }
 
   input {
@@ -30,9 +32,15 @@ export const StyledHeaderSearch = styled.label`
     background-color: inherit;
     width: 100%;
     color: white;
-    text-transform: uppercase;
     font-size: 14px;
     line-height: 16px;
+
+    ::placeholder {
+      color: #ffffff;
+      font-size: 14px;
+      line-height: 16px;
+      opacity: 1;
+    }
   }
 `;
 
@@ -48,7 +56,6 @@ export const StyledHeaderSearchSelect = styled.div`
 
   .selectedValue {
     color: #ffffff;
-    text-transform: uppercase;
     font-size: 14px;
     line-height: 16px;
     min-width: 70px;
